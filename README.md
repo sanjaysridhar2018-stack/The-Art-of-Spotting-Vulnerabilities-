@@ -1,2 +1,1 @@
-# The-Art-of-Spotting 
-Vulnerabilities
+# The-Art-of-Spotting Vulnerabilities

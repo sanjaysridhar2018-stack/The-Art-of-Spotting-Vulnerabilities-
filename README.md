@@ -32,3 +32,7 @@ Netcat is used to establish tcp connections and is the followup tool after using
 Burp suite is probably the most important reconnaisance tool I've come accross in my cybersecurity journey. Whether it be discovering backend api requests, experimenting with parameters to analyse outputs or even passing the request to the intruder and hashing the username and password- burp suite does it all. Being such a multi faceted tool it completely removes the purpose of manual testing and searching for cookies and JWTs manually
 
 ## Insights
+1) As I've mentioned a couple of times before "DO NOT MEMORISE PAYLOADS" try to understand the story behind the vulnerabilities
+2) Small observations can lead to huge vulnerabilities
+3) Don't forget to analyse every endpoint- I do this by creating a table of all the different requests I can send on the server and map out the important vulnerabilities I can work on
+4) Learn to prioritize on the important vulnerabilities but cover them properly

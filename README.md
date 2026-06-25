@@ -2,7 +2,7 @@
 
 ## The wolf's approach
 
-<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/d7fcc456-7bed-451f-9e47-8bbe90a3e2d7" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/d7fcc456-7bed-451f-9e47-8bbe90a3e2d7" />
 
 The very first CTF I tried, I had a completely agressive approach. I tried to directly apply every fundamental exploit I had learnt, blindly without any analysis. However the result? Absolutely no progress. That is exactly when I realized that penetration testing is not about spamming different payloads but starts with a moment to take a step back and introspect. Analysis whether it be passive or active, is the key step to penetration testing which most beginners miss out on. And that is exactly what we call network reconnaisance. Before attacking, first one should understand how the server behaves, what ports are open, what cookies and JWTs are being stored, trying to input gibberish in different parameters and analysing the response. That exactly is the key fundamental to penetration testing and not learning how to craft payloads. This approach can be compared to that of a wolf, how it takes a moment to analyse and enumerate before attacking its prey. Penetration testing should be built brick by brick like a story and one should learn how to spot vulnerabilities and take advantage of them and defiitely should not be rushed to creating complicated exploits and payloads. And that exactly is what I have shared in this blog not only about my journey of becoming skilled at spotting vulnerabilities but also how i escaped from this mindset of prioritising payload crafting.
 

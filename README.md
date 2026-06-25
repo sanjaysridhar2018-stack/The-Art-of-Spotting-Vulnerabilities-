@@ -15,4 +15,17 @@ I understood that the way to spot a CSRF vulnerability is 1) when the site has a
 ### SSRF
 
 ## Tools
+### NMap
+This is one of the fundamental tools used in one of the very first steps of reconnaisance to gather information about the hosts as well as open ports. It is the basis of OS fingerprinting and is also used to enumerate the version the server is running on which can be used for exploitation if outdated or to find out if any CVEs exist for that particular version.
+### Hydra
+If the site does not limit the number of post requests you can send the password can be guessed through brute forcing . This is where hydra comes into play- when a common password wordlist is given , hydra can bruteforce it and try to guess the password since theres no limitation for the number of post requests you can send.
+### Gobuster
+Gobuster is mainly used to discover directories or files whcih are hidden to the naked eye. Moreover, it can expose sensitive information as well as directories which are not meant to be accessed by anyone except the root
+### Curl
+Curl is used for sending http requests manually to the site whch is a manual alternative of burp suite, as well as to test api endpoints and access headers
+### Netcat
+Netcat is used to establish tcp connections and is the followup tool after using nmap- after finding the open ports through nmap, nc can be used to listen on those ports constantly which can be used to test reverse shells
+### Burp Suite 
+
+
 ## Insights

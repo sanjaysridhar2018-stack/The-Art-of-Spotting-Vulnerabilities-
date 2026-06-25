@@ -1,9 +1,11 @@
 # The Art of Spotting Vulnerabilities
-## Introduction
 
 ## The wolf's approach
+The very first CTF I tried, I had a completely agressive approach. I tried to directly apply every fundamental exploit I had learnt, blindly without any analysis. However the result? Absolutely no progress. That is exactly when I realized that penetration testing is not about spamming different payloads but starts with a moment to take a step back and introspect. Analysis whether it be passive or active, is the key step to penetration testing which most beginners miss out on. And that is exactly what we call network reconnaisance. Before attacking, first one should understand how the server behaves, what ports are open, what cookies and JWTs are being stored, trying to input gibberish in different parameters and analysing the response. That exactly is the key fundamental to penetration testing and not learning how to craft payloads. This approach can be compared to that of a wolf, how it takes a moment to analyse and enumerate before attacking its prey. Penetration testing should be built brick by brick like a story and one should learn how to spot vulnerabilities and take advantage of them and defiitely should not be rushed to creating complicated exploits and payloads. And that exactly is what I have shared in this blog not only about my journey of becoming skilled at spotting vulnerabilities but also how i escaped from this mindset of prioritising payload crafting.
 
-## Network Reconnaissance 
+## Network Reconnaisance
+As 
+
 ## Understanding vulnerability patterns
 ### OWASP top 10
 ### SQLi
@@ -26,6 +28,6 @@ Curl is used for sending http requests manually to the site whch is a manual alt
 ### Netcat
 Netcat is used to establish tcp connections and is the followup tool after using nmap- after finding the open ports through nmap, nc can be used to listen on those ports constantly which can be used to test reverse shells
 ### Burp Suite 
-
+Burp suite is probably the most important reconnaisance tool I've come accross in my cybersecurity journey. Whether it be discovering backend api requests, experimenting with parameters to analyse outputs or even passing the request to the intruder and hashing the username and password- burp suite does it all. Being such a multi faceted tool it completely removes the purpose of manual testing and searching for cookies and JWTs manually
 
 ## Insights

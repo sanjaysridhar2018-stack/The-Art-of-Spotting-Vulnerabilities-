@@ -15,7 +15,6 @@ To overcome the fog of not knowing how to proceed, the very first thing i learnt
 Unlike SQLi where I already had grasped the basics of SQL before, here I faced a real challenge since I had no idea about Javascript, making my fundamentals weak. Now CTFs are where the real application part begins, one major learning is to first deploy a random search query and analysing the page source. This gives you an idea whether the input is converted into HTML attribute, if it is embedded in an image or if words like script are banned. This shifted my paythway from blindly testing payloads and understanding how the application actually behaves. If I were stuck in a HTML attribute my first question would be how to escape it rather than how i would inject it. Besides spotting vulnerabilities, you have to be smart about exploiting them as well. For instance if words like <script> are banned you can replace it with <sscriptcript> which would behave the same way.
 ### CSRF
 I understood that the way to spot a CSRF vulnerability is 1) when the site has a way to ask for requests like changing of email address 2) when the site does not verify the origin of the get/post request 
-### SSRF
 
 ## Tools
 ### NMap
